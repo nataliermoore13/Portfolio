@@ -1,12 +1,12 @@
 .navbar {
     text-align: center;
-    display: center;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #56ad73;
     color: black;
     padding: 0.25rem 0.5rem;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 1000;
   }
@@ -28,7 +28,7 @@
     text-decoration: none;
     display: inline-block;
     padding: 0.50rem 1rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: black;
     background-color: #56ad73;
@@ -45,5 +45,6 @@
     text-align: center;
     margin: auto;
     padding: 1rem;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 3.5rem;
   }
