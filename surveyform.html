@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles1.css">
+  <body> 
+    <h1 id="title">East High Boys Basketball Seniors</h1>
+    <p id="description">This survey will collect data on this years seniors favorite memories</p>
+    <div class = "background">
+    <form id="survey-form" class="flex-container">
+
+      <label id="name-label">Name</label>
+      <input type="text" id="name" placeholder="full name" required></input>
+
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="personal email"required></input>
+
+      <label id="number-label">Number</label>
+      <input min="16" max="18" id="number" type="number" placeholder="age"></input>
+
+      <label id="games-label">Which Was More Fun?</label>
+      <div class="inline-option">
+        <input type="radio" id="games" value="games" name="fun_activity">
+        <label for="games">Games</label>
+      </div>
+      
+      <div class="inline-option">
+        <input type="radio" id="travelling" value="travelling" name="fun_activity">
+        <label for="travelling">Travelling</label>
+      </div>
+
+      <label id="checkbox-label">What did you enjoy the most?</label>
+      <div class="inline-option">
+        <input type="checkbox" id="practice" value="practice" name="enjoyed_activity">
+        <label for="practice">Practice</label>
+      </div>
+
+      <div class="inline-option">
+        <input type="checkbox" id="teammates" value="teammates" name="enjoyed_activity">
+        <label for="teammates">Your Teammates</label>
+      </div>
+
+      <label id="memory-label" for="memory">Enter your favorite memory</label>
+      <textarea id="memory" name="favorite_memory" placeholder="Favorite memory"></textarea>
+
+      <label for="media">Select Media Type:</label>
+
+      <select id="dropdown" name="media">
+        <option value="images">Images</option>
+        <option value="videos">Videos</option>
+      </select>
+      <button id="submit" type="submit">Submit</button>
+      </body>
+      </html>

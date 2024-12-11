@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    color: white;
+  
+  }
+  p{
+    text-align: center;
+    color: white
+  }
+  
+  .background::before {
+      content: "";
+      background-image: url(https://th.bing.com/th/id/OIP.SIIyAeSvY0Kd_uIOCN9DogHaE8?rs=1&pid=ImgDetMain);
+      background-size: cover;
+      background-position: center;
+      opacity: 0.5; /* Adjust opacity here */
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1; /* Keep it behind the form */
+  }
+  
+  label{
+    color: white;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea,
+  select {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: white;
+  }
+  form{
+    color: white;
+    width: 50%;
+    height: auto;
+    padding: auto;
+    margin: auto;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #survey-form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px; /* Space between form elements */
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for form */
+      border-radius: 8px;
+      z-index: 1; /* Keeps form on top of the background */
+  }
+  
+  textarea{
+    width: auto;
+    height: auto;
+  }
+   .inline-option {
+        display: inline-flex;
+        align-items: center;
+        margin-right: 10px;
+   }
