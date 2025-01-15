@@ -138,6 +138,7 @@ footer {
   color: #fff;
   font-size: 0.9rem;
   display: flex;
+  justify-content: center;
 }
 
 footer p {
