@@ -97,6 +97,8 @@ main {
 
 .projects {
   margin-bottom: 20px;
+  display: flexbox;
+  
 }
 
 .projects h2 {
