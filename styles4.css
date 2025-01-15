@@ -101,6 +101,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
 }
 
 .projects h2 {
@@ -119,6 +120,10 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex: 1 1 calc(33.333% - 1rem); 
+  max-width: calc(33.333% - 1rem); 
+  box-sizing: border-box; 
+  text-align: center;
 }
 
 .project h3 {
