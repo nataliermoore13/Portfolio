@@ -97,8 +97,9 @@ main {
 
 .projects {
   margin-bottom: 20px;
-  display: flexbox;
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .projects h2 {
